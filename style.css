@@ -1,0 +1,21 @@
+.demo{
+    font-size: 20px;
+    font-family: Arial;
+    color: #2A3CD5;
+}
+.box-one{
+    height: 300px;
+    width: 400px;
+    background-color:burlywood;
+    float: left;
+    padding-top: 120px;
+    padding-left: 180px;
+    box-sizing:border-box;
+}
+.box-two{
+    height: 300px;
+    width: 400px;
+    background-color: red;
+    float: left;
+    margin:10px 50px 30px 40px;
+}
