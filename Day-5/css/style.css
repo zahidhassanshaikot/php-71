@@ -101,22 +101,57 @@
     float: left;
 }
 
-.div-one3{
+.div-a3{
     height: 200px;
     width:20px;
     background-color: blue;
-    margin: 50px 0px 0px 100px;
+    margin: 50px 0px 0px 300px;
     transform: skew(-30deg);
     float: left;
 }
 
-.div-one4{
+.div-a4{
     height: 200px;
     width:20px;
     background-color: blue;
-    margin: 50px 0px 0px 100px;
+    margin: 50px 0px 80px 100px;
     transform: skew(30deg);
     float: left;
+}
+
+.div-a5{
+    height: 20px;
+    width:145px;
+    background-color: blue;
+    margin: 160px 0px 0px 300px;
+    transform: skew(360deg);
+
+}
+
+.div-b1{
+    height:200px;
+    width:100px;
+    border: 3px solid #2A3CD5;
+    margin: 00px 0px 0px 50px;
+    border-radius: 0px 100px 100px 0;
+}
+.div-g1{
+    height: 200px;
+    width:100px;
+    border: 3px solid blue;
+    margin: 50px 0 0 50px;
+    border-radius: 70px 0px 0px 70px;
+    border-right: none;
+}
+.div-g2{
+    height: 100px;
+    width:3px;
+    background-color: blue;
+    /*border: 3px solid #2A3CD5;*/
+    margin: 0px 50px 100px 50px;
+
+    border-radius: 0px 0px 0px 0px;
+
 }
 
 .div-one6{
@@ -126,7 +161,7 @@
     border: 10px ridge red;
     margin: 150px 0px 0px 150px;
 
-    animation: bitm;
+    /*animation: bitm;*/
     animation-duration: 2s;
     animation-iteration-count: infinite;
     /*transform: rotateY(90deg);*/
