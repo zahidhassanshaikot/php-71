@@ -23,8 +23,88 @@
 
 
     <div class="row">
-        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 " style="height: 1800px;border: 1px solid"></div>
-        <div class="col-xl-10 col-lg-10 col-md-9 col-sm-8 " style="height: 1800px;border: 1px solid">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 " style="height: 1800px;border: 1px solid">
+
+            <div class="col-md-12">
+
+                <form action="damo.html" method="post">
+
+                    <div class="form-group">
+                        <lable for="FirstName">First Name </lable>
+                        <input class="form-control" type="text" name="first_name" id="FirstName" placeholder="First Name">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Last Name </lable>
+                        <input class="form-control" type="text" name="first_name" id="LastName">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Email </lable>
+                        <input class="form-control" type="email" name="email_address">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Password </lable>
+                        <input class="form-control" type="password" name="password">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Phone Number </lable>
+                        <input class="form-control" type="number" name="phone_number">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Date of Birth </lable>
+                        <input class="form-control" type="date" name="date_of_birth">
+                    </div>
+
+                    <div class="form-group">
+                        <label><input type="radio" name="gender" value="male"> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Address </lable>
+                        <textarea class="form-control"  name="address" rows="5"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <lable>District Name </lable>
+                        <select class="form-control" name="district_name">
+                            <option value="jaypurhat">Joypurhat</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Rajshahi">Rajshahi</option>
+                            <option>Dhaka</option>
+
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Image </lable>
+                        <input multiple type="file" name="image" accept="image/*">
+                    </div>
+
+                    <div class="form-check">
+                        <lable class="form-check-label">
+                            <input type="checkbox" name="agree" class="form-check-input"> I agree with all terms and condition
+                        </lable>
+                    </div>
+
+<div class="form-group row">
+                    <div class=" col-sm-5">
+                        <input class="btn btn-success btn-block" type="SUBMIT" name="btn">
+                    </div>
+                    <div class="col-sm-5">
+                        <input class="btn btn-danger btn-block" type="reset" name="btn">
+                    </div>
+</div>
+                </form>
+
+            </div>
+
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 " style="height: 1800px;border: 1px solid">
             <div>
             <!--<h1 class="h1">zahid hassan shaikat</h1>-->
             <!--<h2 class="h2">zahid hassan shaikat</h2>-->
@@ -86,159 +166,108 @@
                 <!--<button type="reset" class="btn btn-outline-success btn-sm">sss</button>-->
             </div>
 
-            <!--<div class="col-sm-6">-->
 
-            <!--<hr/>-->
-            <!--<form action="damo.html" method="post">-->
+            <div class="col-md-12">
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">First Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="first_name" class="form-control"/>
+                    </div>
+                </div>
 
-                    <!--<div class="form-group">-->
-                        <!--<lable for="FirstName">First Name </lable>-->
-                        <!--<input class="form-control" type="text" name="first_name" id="FirstName" placeholder="First Name">-->
-                    <!--</div>-->
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Last Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="last_name" class="form-control"/>
+                    </div>
+                </div>
 
-                    <!--<div class="form-group">-->
-                        <!--<lable>Last Name </lable>-->
-                        <!--<input class="form-control" type="text" name="first_name" id="LastName">-->
-                    <!--</div>-->
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">email</label>
+                    <div class="col-sm-9">
+                        <input type="email" name="email" class="form-control"/>
+                    </div>
+                </div>
 
-                    <!--<div class="form-group">-->
-                        <!--<lable>Email </lable>-->
-                        <!--<input class="form-control" type="email" name="email_address">-->
-                    <!--</div>-->
-
-                    <!--<div class="form-group">-->
-                        <!--<lable>Password </lable>-->
-                        <!--<input class="form-control" type="password" name="password">-->
-                    <!--</div>-->
-
-                    <!--<div class="form-group">-->
-                        <!--<lable>Phone Number </lable>-->
-                        <!--<input class="form-control" type="number" name="phone_number">-->
-                    <!--</div>-->
-
-                    <!--<div class="form-group">-->
-                        <!--<lable>Date of Birth </lable>-->
-                        <!--<input class="form-control" type="date" name="date_of_birth">-->
-                    <!--</div>-->
-
-                    <!--<div class="form-group">-->
-                        <!--<label><input type="radio" name="gender" value="male"> Male</label>-->
-                        <!--<label><input type="radio" name="gender" value="female"> Female</label>-->
-                    <!--</div>-->
-
-                    <!--<div class="form-group">-->
-                        <!--<lable>Address </lable>-->
-                        <!--<textarea class="form-control"  name="address" rows="5"></textarea>-->
-                    <!--</div>-->
-
-                    <!--<div class="form-group">-->
-                        <!--<lable>District Name </lable>-->
-                        <!--<select class="form-control" name="district_name">-->
-                            <!--<option value="jaypurhat">Joypurhat</option>-->
-                            <!--<option value="Dhaka">Dhaka</option>-->
-                            <!--<option value="Rajshahi">Rajshahi</option>-->
-                            <!--<option>Dhaka</option>-->
-
-                        <!--</select>-->
-                    <!--</div>-->
-
-                    <!--<div class="form-group">-->
-                        <!--<lable>Image </lable>-->
-                        <!--<input multiple type="file" name="image" accept="image/*">-->
-                    <!--</div>-->
-
-                    <!--<div class="form-check">-->
-                        <!--<lable class="form-check-label">-->
-                        <!--<input type="checkbox" name="agree" class="form-check-input"> I agree with all terms and condition-->
-                        <!--</lable>-->
-                    <!--</div>-->
-
-                    <!--<div class="form-group col-sm-5">-->
-                    <!--<input class="btn btn-success btn-block" type="SUBMIT" name="btn">-->
-                    <!--</div>-->
-                    <!--<div class="form-group col-sm-5">-->
-                        <!--<input class="btn btn-danger btn-block" type="reset" name="btn">-->
-                    <!--</div>-->
-        <!--</form>-->
-
-            <!--</div>-->
-            <!--<div class="col-sm-6">-->
-                <!--<div class="form-group row">-->
-                    <!--<label class="col-form-label col-sm-3">First Name</label>-->
-                    <!--<div class="col-sm-9">-->
-                        <!--<input type="text" name="first_name" class="form-control"/>-->
-                    <!--</div>-->
-                <!--</div>-->
-
-                <!--<div class="form-group row">-->
-                    <!--<label class="col-form-label col-sm-3">Last Name</label>-->
-                    <!--<div class="col-sm-9">-->
-                        <!--<input type="text" name="last_name" class="form-control"/>-->
-                    <!--</div>-->
-                <!--</div>-->
-
-                <!--<div class="form-group row">-->
-                    <!--<label class="col-form-label col-sm-3">email</label>-->
-                    <!--<div class="col-sm-9">-->
-                        <!--<input type="email" name="email" class="form-control"/>-->
-                    <!--</div>-->
-                <!--</div>-->
-
-                <!--<div class="form-group row">-->
-                    <!--<label class="col-form-label col-sm-3">password</label>-->
-                    <!--<div class="col-sm-9">-->
-                        <!--<input type="password" name="password" class="form-control"/>-->
-                    <!--</div>-->
-                <!--</div>-->
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">password</label>
+                    <div class="col-sm-9">
+                        <input type="password" name="password" class="form-control"/>
+                    </div>
+                </div>
 
 
-                <!--<div class="form-group row">-->
-                    <!--<label class="col-form-label col-sm-3">Phone no</label>-->
-                    <!--<div class="col-sm-9">-->
-                        <!--<input type="number" name="phone_number " class="form-control"/>-->
-                    <!--</div>-->
-                <!--</div>-->
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Phone no</label>
+                    <div class="col-sm-9">
+                        <input type="number" name="phone_number " class="form-control"/>
+                    </div>
+                </div>
 
-                <!--<div class="form-group row">-->
-                    <!--<label class="col-form-label col-sm-3">Date of Birth</label>-->
-                    <!--<div class="col-sm-9">-->
-                        <!--<input type="date" name="date_of_birth " class="form-control"/>-->
-                    <!--</div>-->
-                <!--</div>-->
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Date of Birth</label>
+                    <div class="col-sm-9">
+                        <input type="date" name="date_of_birth " class="form-control"/>
+                    </div>
+                </div>
 
-                <!--<div class="form-group row">-->
-                    <!--<label class="col-form-label col-sm-3">Gender</label>-->
-                    <!--<div class="col-sm-9">-->
-                        <!--<label><input type="radio" name="gender" value="male"> Male</label>-->
-                        <!--<label><input type="radio" name="gender" value="female"> Female</label>-->
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Gender</label>
+                    <div class="col-sm-9">
+                        <label><input type="radio" name="gender" value="male"> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
 
-                    <!--</div>-->
-                <!--</div>-->
+                    </div>
+                </div>
 
-                <!--<div class="form-group row">-->
-                    <!--<label class="col-form-label col-sm-3">Address</label>-->
-                    <!--<div class="col-sm-9">-->
-                        <!--<textarea name="Address " class="form-control"></textarea>-->
-                    <!--</div>-->
-                <!--</div>-->
+                <div class="form-group row">
+                    <label class="col-form-label col-sm-3">Address</label>
+                    <div class="col-sm-9">
+                        <textarea name="Address " class="form-control"></textarea>
+                    </div>
+                </div>
 
-                <!--<div class="form-group row">-->
-                    <!--<lable class="col-form-label col-sm-3"></lable>-->
-                    <!--<div class="col-sm-9">-->
-                        <!--<label class="form-check-label">-->
-                        <!--<input type="checkbox" name="agree" class="form-check-input"> I agree with all terms and condition-->
-                        <!--</label>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="form-group">-->
-                    <!--<div class="col-sm-12">-->
-                        <!--<input class="btn btn-success btn-block" type="submit" name="btn">-->
+                <div class="form-group row">
+                    <lable class="col-form-label col-sm-3">District Name </lable>
 
-                    <!--</div>-->
+                    <div class="col-sm-9">
+                        <select class="form-control" name="district_name">
+                            <option value="jaypurhat">Joypurhat</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Rajshahi">Rajshahi</option>
+                            <option>Dhaka</option>
 
-                <!--</div>-->
+                        </select>
+                    </div>
+                </div>
 
-            <!--</div>-->
+                <div class="form-group row">
+                    <lable class="col-form-label col-sm-3">Image </lable>
+                    <div class="col-sm-9">
+                    <input multiple type="file" name="image" accept="image/*">
+                </div>
+                </div>
+
+
+                <div class="form-group row">
+                    <lable class="col-form-label col-sm-3"></lable>
+                    <div class="col-sm-9">
+                        <label class="form-check-label">
+                        <input type="checkbox" name="agree" class="form-check-input"> I agree with all terms and condition
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class=" col-sm-5">
+                        <input class="btn btn-success btn-block" type="SUBMIT" name="btn">
+                    </div>
+                    <div class="col-sm-5">
+                        <input class="btn btn-danger btn-block" type="reset" name="btn">
+                    </div>
+                </div>
+
+            </div>
 
 <!--<div class="container">-->
     <!--<div class="row">-->
@@ -284,13 +313,13 @@
         <!--</div>-->
     <!--</div>-->
 <!--</div>-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <img src="Images/1.jpg" class="img-thumbnail rounded-circle"/>
-                    </div>
-                </div>
-            </div>
+            <!--<div class="container">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-sm-12">-->
+                        <!--<img src="Images/1.jpg" class="img-thumbnail rounded-circle"/>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
 
         </div>
     </div>
