@@ -1,0 +1,22 @@
+.div-one{
+    height: 200px;
+    width: 300px;
+    background-color: blue;
+}
+/*@media screen and (max-width: 500px) {*/
+    /*body {*/
+        /*background-color: red*/
+    /*}*/
+/*}*/
+
+/*@media screen and (max-width: 600px) and (min-width: 500px){*/
+    /*body {*/
+        /*background-color: green*/
+    /*}*/
+/*}*/
+
+/*@media screen and (min-width: 800px) {*/
+    /*body {*/
+        /*background-color: yellow*/
+    /*}*/
+/*}*/
