@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark navbar bg-dark ">
+
+    <a href="" class="navbar-brand">Logo</a>
+
+    <div class="container">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myMenu">
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle"
+                                                 data-toggle="dropdown">Service</a>
+                    <ul class="dropdown-menu bg-dark">
+                        <li class="nav-item"><a href="" class="nav-link">Service one</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Service two</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Service three</a></li>
+                    </ul>
+
+
+                </li>
+                <li class="nav-item"><a href="" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!--<form class="form-inline">-->
+                <!--<input type="search" name="search" class="form-control"/>-->
+                <!--<button type="submit" class="btn btn-success ml-2">Search</button>-->
+            <!--</form>-->
+
+            <ul class="navbar-nav">
+            <li class="nav-item"><a href="" class="nav-link"data-toggle="modal" data-target="#myModalLogin"> Login </a></li>
+            <li class="nav-item"><a href="" class="nav-link" data-toggle="modal" data-target="#myModalSingup"> Sign up</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<hr/>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+
+            <div id="mySlider" class="carousel slide" data-ride="carousel" data-interval="500">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active" >
+                        <img class="d-block w100" src="Images/1%20(1).jpg" alt="Image 1"/>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w100" src="Images/1%20(2).jpg" alt="Image 2"/>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w100" src="Images/1%20(3).jpg" alt="Image 3"/>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w100" src="Images/1%20(4).jpg" alt="Image 4"/>
+                    </div>
+
+                </div>
+                <a id="#mySlidder" href="" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span></a>
+
+                <a id="#myslider" href="" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-prev-icon"></span></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--<button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal"> click me</button>-->
+
+<div class="modal fade" id="myModalSingup">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Registration from</h3>
+                <button class="close" data-dismiss="modal">
+                    &cross;
+                </button>
+
+            </div>
+            <div class="modal-body">
+                <form action="damo.html" method="post">
+
+                    <div class="form-group">
+                        <lable for="FirstName">First Name </lable>
+                        <input class="form-control" type="text" name="first_name" id="FirstName" placeholder="First Name">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Last Name </lable>
+                        <input class="form-control" type="text" name="first_name" id="LastName">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Email </lable>
+                        <input class="form-control" type="email" name="email_address">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Password </lable>
+                        <input class="form-control" type="password" name="password">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Phone Number </lable>
+                        <input class="form-control" type="number" name="phone_number">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Date of Birth </lable>
+                        <input class="form-control" type="date" name="date_of_birth">
+                    </div>
+
+                    <div class="form-group">
+                        <label><input type="radio" name="gender" value="male"> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Address </lable>
+                        <textarea class="form-control"  name="address" rows="5"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <lable>District Name </lable>
+                        <select class="form-control" name="district_name">
+                            <option value="jaypurhat">Joypurhat</option>
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Rajshahi">Rajshahi</option>
+                            <option>Dhaka</option>
+
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Image </lable>
+                        <input multiple type="file" name="image" accept="image/*">
+                    </div>
+
+                    <div class="form-check">
+                        <lable class="form-check-label">
+                            <input type="checkbox" name="agree" class="form-check-input"> I agree with all terms and condition
+                        </lable>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class=" col-sm-5">
+                            <input class="btn btn-success btn-block" type="SUBMIT" name="btn">
+                        </div>
+                        <div class="col-sm-5">
+                            <input class="btn btn-danger btn-block" type="reset" name="btn">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <!--<h3>Some Content on footer </h3>-->
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal fade" id="myModalLogin">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Login Page</h3>
+                <button class="close" data-dismiss="modal">
+                    &cross;
+                </button>
+
+            </div>
+            <div class="modal-body">
+                <form action="damo.html" method="post">
+
+
+                    <div class="form-group">
+                        <lable>Email </lable>
+                        <input class="form-control" type="email" name="email_address">
+                    </div>
+
+                    <div class="form-group">
+                        <lable>Password </lable>
+                        <input class="form-control" type="password" name="password">
+                    </div>
+
+
+                    <div class="form-group row">
+                        <div class=" col-sm-5">
+                            <input class="btn btn-success btn-block" type="SUBMIT" name="btn">
+                        </div>
+                        <div class="col-sm-5">
+                            <input class="btn btn-danger btn-block" type="reset" name="btn">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <!--<h3>Some Content on footer </h3>-->
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--<div class="container-fluid">-->
+<!--<div class="row">-->
+<!--<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 " style="height: 200px;border: 1px solid"></div>-->
+<!--<div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 " style="height: 200px;border: 1px solid"></div>-->
+<!--</div>-->
+<!---->
+<!--<div class="row">-->
+<!--<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 " style="height: 50px;border: 1px solid"></div>-->
+<!--</div>-->
+
+
+<!--<div class="row">-->
+<!--<div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 " style="height: 1800px;border: 1px solid"></div>-->
+<!--<div class="col-xl-10 col-lg-10 col-md-9 col-sm-8 " style="height: 1800px;border: 1px solid">-->
+
+
+<!--</div>-->
+
+<!--</div>-->
+
+
+<!--<div class="row">-->
+<!--<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 " style="height: 300px;border: 1px solid"></div>-->
+<!--<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 " style="height: 300px;border: 1px solid"></div>-->
+<!--<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 " style="height: 300px;border: 1px solid"></div>-->
+<!--<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 " style="height: 300px;border: 1px solid"></div>-->
+<!--</div>-->
+
+
+<!--<div class="row">-->
+<!--<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 " style="height: 40px;border: 1px solid"></div>-->
+<!--</div>-->
+<!--</div>-->
+
+<script src="js/jquery-3.2.1.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>-->
+<script src="js/proper.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
