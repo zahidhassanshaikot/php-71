@@ -1,0 +1,59 @@
+.my-style{
+    height: 500px;
+    border: 1px solid red;
+}
+.class-one{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 100px;
+}
+
+.class-two{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.class-three{
+    height: 200px;
+    width: 200px;
+    background-color: deepskyblue;
+    border-radius: 0px 0px 100px 100px;
+}
+
+
+/*.carousel-item-padding{*/
+    /*padding:100px 25px;*/
+    /*!*background-color: #6c757d;*!*/
+/*}*/
+/*.add-section{*/
+    /*background: url("../Images/2 (5).jpg");*/
+    /*!*background-color: #6c757d;*!*/
+    /*background-attachment:fixed ;*/
+    /*background-size: 100% 100%;*/
+/*}*/
+
+/*.div-one{*/
+    /*height: 200px;*/
+    /*width: 300px;*/
+    /*background-color: blue;*/
+/*}*/
+/*@media screen and (max-width: 500px) {*/
+    /*body {*/
+        /*background-color: red*/
+    /*}*/
+/*}*/
+
+/*@media screen and (max-width: 600px) and (min-width: 500px){*/
+    /*body {*/
+        /*background-color: green*/
+    /*}*/
+/*}*/
+
+/*@media screen and (min-width: 800px) {*/
+    /*body {*/
+        /*background-color: yellow*/
+    /*}*/
+/*}*/
