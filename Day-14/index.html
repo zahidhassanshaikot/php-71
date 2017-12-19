@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+
+<body>
+
+<form action="" method="post" id="registrationForm">
+    <table>
+    <tr>
+        <th>First Name</th>
+        <td><input type="text" name="first_name" id="firstName">
+            <span id="firstNameError" class="text-danger"></span>
+        </td>
+
+    </tr>
+    <tr>
+        <th>Last Name</th>
+        <td><input type="text" name="last_name" id="lastName">
+            <span id="lastNameError"class="text-danger"></span>
+        </td>
+
+    </tr>
+        <tr>
+            <th>Gender</th>
+            <td><input type="radio" name="grnder" id="gender" value="Male">Male
+            <input type="radio" name="grnder" id="" value="Female">Female
+                <span id="genderError"class="text-danger"></span>
+            </td>
+
+        </tr>
+
+    <tr>
+        <th>Email</th>
+        <td><input type="text" name="emil" id="email">
+            <span id="emailError"class="text-danger"></span>
+        </td>
+
+    </tr>
+    <tr>
+        <th>Password</th>
+        <td><input type="password" name="password" id="password">
+            <input type="checkbox" name="passChexkBox" id="passCheckbox">
+            <span id="passwordError" class="text-danger"></span>
+        </td>
+
+    </tr>
+    <th>Confirm Password</th>
+    <td><input type="password" name="confirm_password" id="confirmPassword">
+        <span id="confirmPasswordError" class="text-danger"></span>
+    </td>
+
+        </tr>
+    <tr>
+        <th>District Name</th>
+        <td>
+            <select name="district_name" id="districtName">
+                <option value="">Select District Name</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Rongpur">Rongpur</option>
+            </select>
+            <span id="districtNameError" class="text-danger"></span>
+        </td>
+    </tr>
+    <tr>
+        <th></th>
+        <td><input type="submit" id="btn" name="btnSubmit" value="Submit" /></td>
+    </tr>
+</table>
+</form>
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/proper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/my-script.js"></script>
+</body>
+</html>

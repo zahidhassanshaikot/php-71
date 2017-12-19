@@ -23,23 +23,27 @@ $('#img4').click(function () {
 });
 
 
-// function createe() {
-//     var newHeadingElement= document.createElement('input');
-//     var newHeadingElement= document.createElement('input');
-//
-//     var newBtnElement= document.createElement('p');
-//
-//     newHeadingElement.innerHTML="this is heading";
-//     newParagraphElement.innerHTML="this is paragraph";
-//
-//     document.getElementById('div').appendChild(newHeadingElement);
-//     document.getElementById('div').appendChild(newParagraphElement);
-//
-// }
-//
-//     document.getElementById('btn').onclick= function createElement() {
-//         createe();
-//     }
+function createe() {
+    var newNameElement= document.createElement('input');
+    var newPriceElement= document.createElement('input');
+
+    var newBtnElement= document.createElement('button');
+
+    newPriceElement.setAttribute("placeholder", "Price");
+    newNameElement.setAttribute("placeholder", "Name");
+    newBtnElement.type="button";
+    newBtnElement.type="button";
+
+    document.getElementById('div').appendChild(newNameElement);
+    document.getElementById('div').appendChild(newPriceElement);
+    document.getElementById('div').appendChild(newBtnElement);
+
+}
+
+    document.getElementById('btn').onclick= function createElement() {
+        createe();
+
+    }
 
 // function createe() {
 //     var newHeadingElement= document.createElement('h1');
