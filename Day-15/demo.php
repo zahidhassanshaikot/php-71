@@ -24,7 +24,7 @@
 <!--    <input type="text" value=" --><?php //echo "this is heading"; ?><!--"/>-->
 <!--</body>-->
 <!--</html>-->
-
+<!--error-fatal,warning, parse,notice-->
 <?php
 //3 standard rules for variable
 //start with $ sign
@@ -37,12 +37,35 @@ $lastName="Shaikat";
 echo $firstName.$lastName;
 */
 
-/*
+
 $x=10;
 $y=20;
+//Arithmatic operator binary
+//echo $x+$y;
 
-echo $x.=$y;
-*/
+//Arithmatic operator unary
+//$x++;
+//echo -$x;
 
+//Assignment operator
+//$x+=$y;
+//echo $x.=$y;
+//echo $x%=$y;
+
+//conditional operator
+if($x<$y){
+    echo "x is small";
+}else{echo "x is not small";}
+
+if($x<$y){
+    echo "x is small. <br/>";
+}
+
+
+//logical
+
+for($x;$x<=$y;$x++){
+    echo $x." ";
+}
 
 ?>
