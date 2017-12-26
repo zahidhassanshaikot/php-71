@@ -1,5 +1,27 @@
+$(function () {
+    $(":file").change(function () {
+        if (this.files && this.files[0]) {
+            var reader = new FileReader();
+            reader.onload = imageIsLoaded;
+            reader.readAsDataURL(this.files[0]);
+        }
+    });
+});
 
+function imageIsLoaded(e) {
+    $('#viewImgage').attr('src', e.target.result);
+};
 
+$('#image').change(function () {
+    var imgSrc=$('#image').attr('src');
+    $('#viewImgage').attr('src', imgSrc);
+})
+
+//     $('#img4').click(function () {
+//     var img1SrcVal=$(this).attr('src');
+//     $('#mainImage').attr('src', img1SrcVal);
+//     // $('#mainImage').attr('src','');
+// });
 
 $('#passCheckbox').click(function () {
     if(this.checked){
