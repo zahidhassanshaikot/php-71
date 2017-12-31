@@ -5,14 +5,26 @@
  * Date: 12/31/2017
  * Time: 9:24 AM
  */
-$result=[
-    'stringLength'=>'',
-    'worldLength'=>'',
-];
+
+//require_once 'App\classes\Student.php';
+//require_once 'App\classes\Calculation.php';
+require_once 'vendor/autoload.php';
+use App\classes\Calculation;
+
+use App\classes\Student;
+Student::addition();
+
+//$result=[
+//    'stringLength'=>'',
+//    'worldLength'=>'',
+//];
+//if (isset($_POST['btn'])) {
+//   $calculation=new App\classes\Calculation();
+//    $result= $calculation->cal($_POST);
+//}
+
 if (isset($_POST['btn'])) {
-    require_once 'Calculation.php';
-   $calculation=new Calculation();
-    $result= $calculation->cal($_POST);
+    $result= Calculation::cal($_POST);
 }
 ?>
 
